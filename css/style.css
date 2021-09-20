@@ -19,6 +19,24 @@ h1 {
   color: #d5e5e4cc;
   font-size: 130px;
   line-height: 120px;
+  background: transparent;
+  z-index: 0;
+}
+
+h3 {
+  font-family: "Rozha One", serif;
+  color: black;
+  font-size: 36px;
+  background: transparent;
+  z-index: 1;
+}
+
+.values__items p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 18px;
+  background: transparent;
+  z-index: 1;
 }
 
 nav {
@@ -71,5 +89,17 @@ nav div {
   line-height: 35px;
   background: transparent;
   color: #4a5f5e;
+}
+
+#values h1 {
+  position: absolute;
+  left: -5px;
+  top: 10%;
+}
+
+#values .values__items {
+  padding-left: 20%;
+  margin-bottom: 30px;
+  width: 90%;
 }
 /*# sourceMappingURL=style.css.map */

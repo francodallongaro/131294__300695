@@ -28,3 +28,16 @@
     color: $secondary-color;
   }
 }
+
+#values {
+  h1 {
+    position: absolute;
+    left: -5px;
+    top: 10%;
+  }
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+}
