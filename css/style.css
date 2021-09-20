@@ -14,6 +14,13 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+h1 {
+  font-family: "Rozha One", serif;
+  color: #d5e5e4cc;
+  font-size: 130px;
+  line-height: 120px;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,5 +36,40 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+nav div {
+  font-family: "Roboto", sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#who-i-am h1 {
+  position: absolute;
+  left: -5px;
+  top: 10%;
+}
+
+#who-i-am img {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  background: transparent;
+}
+
+#who-i-am p {
+  position: absolute;
+  top: 10%;
+  right: 20px;
+  text-align: end;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+  background: transparent;
+  color: #4a5f5e;
 }
 /*# sourceMappingURL=style.css.map */
