@@ -85,8 +85,8 @@ nav div {
 }
 
 #who-i-am p {
-  position: absolute;
-  top: 10%;
+  position: relative;
+  top: 70px;
   right: 20px;
   text-align: end;
   font-size: 20px;
