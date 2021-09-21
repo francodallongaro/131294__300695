@@ -1,7 +1,8 @@
 .section {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow: hidden;
 }
 #who-i-am {
   h1 {
@@ -11,7 +12,8 @@
   }
   img {
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background: transparent;
   }
@@ -32,7 +34,7 @@
 #values {
   h1 {
     position: absolute;
-    left: -5px;
+    left: -10px;
     top: 10%;
   }
   .values__items {
