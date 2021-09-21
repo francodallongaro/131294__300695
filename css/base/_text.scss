@@ -1,28 +1,61 @@
 @import "variables";
 
-h1 {
-  font-family: $primary-font;
-  color: $primary-color;
-  font-size: 125px;
-  line-height: 120px;
-  background: transparent;
-  z-index: -1;
-}
+// CELU
+@media (max-width: 768px) {
+  h1 {
+    font-family: $primary-font;
+    color: $primary-color;
+    font-size: 125px;
+    line-height: 120px;
+    background: transparent;
+    z-index: -1;
+  }
 
-h3 {
-  font-family: $primary-font;
-  color: black;
-  font-size: 36px;
-  background: transparent;
-  z-index: 1;
-}
-
-.values__items {
-  p {
-    font-family: $secondary-font;
+  h3 {
+    font-family: $primary-font;
     color: black;
-    font-size: 18px;
+    font-size: 36px;
     background: transparent;
     z-index: 1;
+  }
+
+  .values__items {
+    p {
+      font-family: $secondary-font;
+      color: black;
+      font-size: 18px;
+      background: transparent;
+      z-index: 1;
+    }
+  }
+}
+
+// COMPU
+@media (min-width: 768px) {
+  h1 {
+    font-family: $primary-font;
+    color: $primary-color;
+    font-size: 280px;
+    line-height: 200px;
+    background: transparent;
+    z-index: -1;
+  }
+
+  h3 {
+    font-family: $primary-font;
+    color: black;
+    font-size: 36px;
+    background: transparent;
+    z-index: 1;
+  }
+
+  .values__items {
+    p {
+      font-family: $secondary-font;
+      color: black;
+      font-size: 18px;
+      background: transparent;
+      z-index: 1;
+    }
   }
 }

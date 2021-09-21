@@ -1,46 +1,97 @@
-.section {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 50px);
-  overflow: hidden;
-}
-#who-i-am {
-  h1 {
-    position: absolute;
-    left: -5px;
-    top: 10%;
-  }
-  img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
-  }
-
-  p {
+// CELU
+@media (max-width: 768px) {
+  .section {
     position: relative;
-    top: 70px;
-    right: 20px;
-    text-align: end;
-    font-size: 20px;
-    font-family: $secondary-font;
-    line-height: 35px;
-    background: transparent;
-    color: $secondary-color;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+  }
+  #who-i-am {
+    h1 {
+      position: absolute;
+      left: -5px;
+      top: 10%;
+    }
+    img {
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      width: 100%;
+      background: transparent;
+    }
+    p {
+      position: relative;
+      top: 70px;
+      right: 20px;
+      text-align: end;
+      font-size: 20px;
+      font-family: $secondary-font;
+      line-height: 35px;
+      background: transparent;
+      color: $secondary-color;
+    }
+  }
+
+  #values,
+  #work {
+    h1 {
+      position: absolute;
+      left: -10px;
+      top: calc(100vh - 50px);
+    }
+    .values__items {
+      padding-left: 20%;
+      margin-bottom: 90px;
+      width: 90%;
+    }
   }
 }
 
-#values,
-#work {
-  h1 {
-    position: absolute;
-    left: -10px;
-    top: calc(100vh - 50px);
+// COMPU
+@media (min-width: 768px) {
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
   }
-  .values__items {
-    padding-left: 20%;
-    margin-bottom: 90px;
-    width: 90%;
+
+  #who-i-am {
+    h1 {
+      position: absolute;
+      left: -5px;
+      top: 20%;
+    }
+    img {
+      position: absolute;
+      bottom: 0;
+      right: 7%;
+      width: 40%;
+      background: transparent;
+    }
+    p {
+      position: relative;
+      top: 60%;
+      left: 20%;
+      text-align: start;
+      font-size: 36px;
+      font-family: $secondary-font;
+      line-height: 50px;
+      background: transparent;
+      color: $secondary-color;
+    }
+  }
+  #values,
+  #work {
+    h1 {
+      position: absolute;
+      left: -10px;
+      top: calc(100vh - 50px);
+    }
+    .values__items {
+      padding-left: 20%;
+      margin-bottom: 90px;
+      width: 90%;
+    }
   }
 }

@@ -9,29 +9,54 @@ body {
   background: #f8f8f8;
 }
 
-h1 {
-  font-family: "Rozha One", serif;
-  color: #d5e5e4cc;
-  font-size: 125px;
-  line-height: 120px;
-  background: transparent;
-  z-index: -1;
+@media (max-width: 768px) {
+  h1 {
+    font-family: "Rozha One", serif;
+    color: #d5e5e4cc;
+    font-size: 125px;
+    line-height: 120px;
+    background: transparent;
+    z-index: -1;
+  }
+  h3 {
+    font-family: "Rozha One", serif;
+    color: black;
+    font-size: 36px;
+    background: transparent;
+    z-index: 1;
+  }
+  .values__items p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    z-index: 1;
+  }
 }
 
-h3 {
-  font-family: "Rozha One", serif;
-  color: black;
-  font-size: 36px;
-  background: transparent;
-  z-index: 1;
-}
-
-.values__items p {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-size: 18px;
-  background: transparent;
-  z-index: 1;
+@media (min-width: 768px) {
+  h1 {
+    font-family: "Rozha One", serif;
+    color: #d5e5e4cc;
+    font-size: 280px;
+    line-height: 200px;
+    background: transparent;
+    z-index: -1;
+  }
+  h3 {
+    font-family: "Rozha One", serif;
+    color: black;
+    font-size: 36px;
+    background: transparent;
+    z-index: 1;
+  }
+  .values__items p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    z-index: 1;
+  }
 }
 
 nav {
@@ -60,50 +85,118 @@ nav div a {
   color: black;
 }
 
-.section {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 50px);
-  overflow: hidden;
+@media (min-width: 768px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    position: fixed;
+    top: 4%;
+    right: 3%;
+    background: transparent;
+    width: 30%;
+    height: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav div {
+    font-family: "Roboto", sans-serif;
+  }
+  nav div a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
-#who-i-am h1 {
-  position: absolute;
-  left: -5px;
-  top: 10%;
+@media (max-width: 768px) {
+  .section {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+  }
+  #who-i-am h1 {
+    position: absolute;
+    left: -5px;
+    top: 10%;
+  }
+  #who-i-am img {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+  }
+  #who-i-am p {
+    position: relative;
+    top: 70px;
+    right: 20px;
+    text-align: end;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    background: transparent;
+    color: #4a5f5e;
+  }
+  #values h1,
+  #work h1 {
+    position: absolute;
+    left: -10px;
+    top: calc(100vh - 50px);
+  }
+  #values .values__items,
+  #work .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
 }
 
-#who-i-am img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: transparent;
-}
-
-#who-i-am p {
-  position: relative;
-  top: 70px;
-  right: 20px;
-  text-align: end;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  line-height: 35px;
-  background: transparent;
-  color: #4a5f5e;
-}
-
-#values h1,
-#work h1 {
-  position: absolute;
-  left: -10px;
-  top: calc(100vh - 50px);
-}
-
-#values .values__items,
-#work .values__items {
-  padding-left: 20%;
-  margin-bottom: 90px;
-  width: 90%;
+@media (min-width: 768px) {
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #who-i-am h1 {
+    position: absolute;
+    left: -5px;
+    top: 20%;
+  }
+  #who-i-am img {
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    width: 40%;
+    background: transparent;
+  }
+  #who-i-am p {
+    position: relative;
+    top: 60%;
+    left: 20%;
+    text-align: start;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    line-height: 50px;
+    background: transparent;
+    color: #4a5f5e;
+  }
+  #values h1,
+  #work h1 {
+    position: absolute;
+    left: -10px;
+    top: calc(100vh - 50px);
+  }
+  #values .values__items,
+  #work .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
