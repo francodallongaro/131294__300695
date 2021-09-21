@@ -9,14 +9,6 @@ body {
   background: #f8f8f8;
 }
 
-#lets-talk {
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  font-size: 24px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
 h1 {
   font-family: "Rozha One", serif;
   color: #d5e5e4cc;
@@ -99,7 +91,7 @@ nav div {
 #values h1 {
   position: absolute;
   left: -10px;
-  top: 10%;
+  top: 0;
 }
 
 #values .values__items {
