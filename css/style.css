@@ -15,7 +15,7 @@ h1 {
   font-size: 125px;
   line-height: 120px;
   background: transparent;
-  z-index: 0;
+  z-index: -1;
 }
 
 h3 {
@@ -93,15 +93,17 @@ nav div a {
   color: #4a5f5e;
 }
 
-#values h1 {
+#values h1,
+#work h1 {
   position: absolute;
   left: -10px;
-  top: 0;
+  top: calc(100vh - 50px);
 }
 
-#values .values__items {
+#values .values__items,
+#work .values__items {
   padding-left: 20%;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   width: 90%;
 }
 /*# sourceMappingURL=style.css.map */

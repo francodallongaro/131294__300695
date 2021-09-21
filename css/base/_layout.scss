@@ -31,15 +31,16 @@
   }
 }
 
-#values {
+#values,
+#work {
   h1 {
     position: absolute;
     left: -10px;
-    top: 0;
+    top: calc(100vh - 50px);
   }
   .values__items {
     padding-left: 20%;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     width: 90%;
   }
 }
