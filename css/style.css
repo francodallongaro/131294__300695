@@ -55,6 +55,11 @@ nav div {
   font-family: "Roboto", sans-serif;
 }
 
+nav div a {
+  text-decoration: none;
+  color: black;
+}
+
 .section {
   position: relative;
   width: 100%;
