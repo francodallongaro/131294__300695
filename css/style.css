@@ -56,6 +56,8 @@ body {
     font-size: 18px;
     background: transparent;
     z-index: 1;
+    line-height: 28px;
+    letter-spacing: 0.3px;
   }
 }
 
@@ -112,6 +114,11 @@ nav div a {
   }
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 768px) {
   .section {
     position: relative;
@@ -142,17 +149,26 @@ nav div a {
     background: transparent;
     color: #4a5f5e;
   }
-  #values h1,
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
+  #work {
+    margin-top: 300px;
+  }
   #work h1 {
     position: absolute;
     left: -10px;
     top: calc(100vh - 50px);
   }
-  #values .values__items,
-  #work .values__items {
-    padding-left: 20%;
-    margin-bottom: 90px;
-    width: 90%;
+  #about {
+    margin-top: 300px;
+  }
+  #values h1 {
+    position: absolute;
+    left: -10px;
+    top: calc(100vh - 50px);
   }
 }
 
@@ -186,17 +202,32 @@ nav div a {
     background: transparent;
     color: #4a5f5e;
   }
-  #values h1,
-  #work h1 {
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
+  #values h1 {
     position: absolute;
     left: -10px;
     top: calc(100vh - 50px);
   }
-  #values .values__items,
-  #work .values__items {
-    padding-left: 20%;
-    margin-bottom: 90px;
-    width: 90%;
+  #work {
+    margin-top: 300px;
+  }
+  #work h1 {
+    position: absolute;
+    left: -10px;
+    top: 350px;
+  }
+  #work h3 {
+    color: black;
+  }
+  #work h3:hover {
+    text-decoration: underline;
+  }
+  #about {
+    margin-top: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */

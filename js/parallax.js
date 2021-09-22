@@ -1,6 +1,7 @@
 let fran_photo = document.getElementById("who-i-am__img");
 let who_i_am__p = document.getElementById("who-i-am__p");
 let my_values__title = document.getElementById("my_values__title");
+let work__title = document.getElementById("work__title");
 
 let vh = window.innerHeight;
 
@@ -15,4 +16,5 @@ window.addEventListener("scroll", function () {
   }
 
   my_values__title.style.top = value * 0.4 + (vh - 50) + "px";
+  work__title.style.top = value * 0.4 - 350 + "px";
 });

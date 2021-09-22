@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 // CELU
 @media (max-width: 768px) {
   .section {
@@ -32,17 +36,28 @@
     }
   }
 
-  #values,
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
   #work {
     h1 {
       position: absolute;
       left: -10px;
       top: calc(100vh - 50px);
     }
-    .values__items {
-      padding-left: 20%;
-      margin-bottom: 90px;
-      width: 90%;
+    margin-top: 300px;
+  }
+
+  #about {
+    margin-top: 300px;
+  }
+  #values {
+    h1 {
+      position: absolute;
+      left: -10px;
+      top: calc(100vh - 50px);
     }
   }
 }
@@ -81,17 +96,36 @@
       color: $secondary-color;
     }
   }
-  #values,
-  #work {
+
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
+
+  #values {
     h1 {
       position: absolute;
       left: -10px;
       top: calc(100vh - 50px);
     }
-    .values__items {
-      padding-left: 20%;
-      margin-bottom: 90px;
-      width: 90%;
+  }
+  #work {
+    margin-top: 300px;
+    h1 {
+      position: absolute;
+      left: -10px;
+      top: 350px;
     }
+
+    h3 {
+      color: black;
+    }
+    h3:hover {
+      text-decoration: underline;
+    }
+  }
+  #about {
+    margin-top: 300px;
   }
 }
