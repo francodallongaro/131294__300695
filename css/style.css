@@ -207,6 +207,9 @@ a {
     margin-bottom: 90px;
     width: 90%;
   }
+  #values {
+    margin-top: 300px;
+  }
   #values h1 {
     position: absolute;
     left: -10px;
