@@ -126,8 +126,9 @@ nav div a {
   color: black;
 }
 
-nav #contact-btn {
+nav #contact-btn a {
   cursor: pointer;
+  color: #77aba7;
 }
 
 @media (min-width: 768px) {
@@ -157,6 +158,10 @@ nav #contact-btn {
   }
   nav div a:hover {
     text-decoration: underline;
+  }
+  nav #contact-btn a {
+    cursor: pointer;
+    color: #77aba7;
   }
 }
 

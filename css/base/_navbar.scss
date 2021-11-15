@@ -1,3 +1,5 @@
+@import "variables";
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -14,8 +16,9 @@ nav {
       color: black;
     }
   }
-  #contact-btn {
+  #contact-btn a{
     cursor: pointer;
+    color: darken($primary-color, 30);
   }
 }
 
@@ -40,6 +43,10 @@ nav {
           text-decoration: underline;
         }
       }
+    }
+    #contact-btn a {
+      cursor: pointer;
+      color: darken($primary-color, 30);
     }
   }
 }
