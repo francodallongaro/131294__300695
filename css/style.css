@@ -248,7 +248,10 @@ a {
   }
   #contact-page #contact-close {
     cursor: pointer;
-    margin-top: 30px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: larger;
   }
   #quote {
     height: 40vh;
@@ -369,7 +372,10 @@ a {
   }
   #contact-page #contact-close {
     cursor: pointer;
-    margin-top: 30px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: larger;
   }
   #quote {
     margin-top: 300px;
