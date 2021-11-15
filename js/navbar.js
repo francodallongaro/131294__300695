@@ -6,9 +6,9 @@ let work_height = window.pageYOffset + work_section.getBoundingClientRect().top 
 let about_height = window.pageYOffset + about_section.getBoundingClientRect().top - 300
 
 function navbar_home(){
-    $("#values-btn").css('opacity','20%')
-    $("#work-btn").css('opacity','20%')
-    $("#about-btn").css('opacity','20%')
+    $("#values-btn").css('opacity','100%')
+    $("#work-btn").css('opacity','100%')
+    $("#about-btn").css('opacity','100%')
     $("#values-btn").css('font-weight','normal')
     $("#work-btn").css('font-weight','normal')
     $("#about-btn").css('font-weight','normal')
