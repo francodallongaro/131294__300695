@@ -1,16 +1,6 @@
 @import "variables";
 
-#quote {
-  p {
-    font-family: $secondary-font;
-    color: black;
-    font-size: 24px;
-    font-weight: 300;
-    background: transparent;
-    z-index: 1;
-    line-height: 40px;
-  }
-}
+
 
 // CELU
 @media (max-width: 768px) {
@@ -52,7 +42,17 @@
     }
   }
 
-
+  #quote {
+    p {
+      font-family: $secondary-font;
+      color: black;
+      font-size: 20px;
+      font-weight: 300;
+      background: transparent;
+      z-index: 1;
+      line-height: 40px;
+    }
+  }
 
 }
 
@@ -95,6 +95,18 @@
     z-index: 1;
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  #quote {
+    p {
+      font-family: $secondary-font;
+      color: black;
+      font-size: 24px;
+      font-weight: 300;
+      background: transparent;
+      z-index: 1;
+      line-height: 40px;
     }
   }
 

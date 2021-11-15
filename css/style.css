@@ -10,16 +10,6 @@ body {
   background: #f8f8f8;
 }
 
-#quote p {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-size: 24px;
-  font-weight: 300;
-  background: transparent;
-  z-index: 1;
-  line-height: 40px;
-}
-
 @media (max-width: 768px) {
   h1 {
     font-family: "Rozha One", serif;
@@ -52,6 +42,15 @@ body {
   }
   #contact-page a:hover, #about a:hover {
     text-decoration: underline;
+  }
+  #quote p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    background: transparent;
+    z-index: 1;
+    line-height: 40px;
   }
 }
 
@@ -89,6 +88,15 @@ body {
   }
   #contact-page a:hover, #about a:hover {
     text-decoration: underline;
+  }
+  #quote p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    background: transparent;
+    z-index: 1;
+    line-height: 40px;
   }
 }
 
@@ -147,6 +155,9 @@ nav #contact-btn {
     text-decoration: none;
     color: black;
   }
+  nav div a:hover {
+    text-decoration: underline;
+  }
 }
 
 a {
@@ -196,6 +207,7 @@ a {
     width: 90%;
   }
   #work, #about {
+    position: relative;
     margin-top: 300px;
   }
   #contact-page {
@@ -244,13 +256,11 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 30px;
+    padding-left: 20%;
   }
 }
 

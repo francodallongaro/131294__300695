@@ -55,6 +55,7 @@ a {
   }
   
   #work, #about {
+    position: relative;
     margin-top: 300px;
   }
 
@@ -88,9 +89,10 @@ a {
     height: 40vh;
     background-color: $primary-color;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    padding-left: 20%;
   }
 }
 
