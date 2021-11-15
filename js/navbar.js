@@ -1,7 +1,7 @@
 let values_section = document.getElementById("values");
 let work_section = document.getElementById("work");
 let about_section = document.getElementById("about");
-let values_height = window.pageYOffset + values_section.getBoundingClientRect().top - 300
+let values_height = window.pageYOffset + values_section.getBoundingClientRect().top - 500
 let work_height = window.pageYOffset + work_section.getBoundingClientRect().top - 300
 let about_height = window.pageYOffset + about_section.getBoundingClientRect().top - 300
 
