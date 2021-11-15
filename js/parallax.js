@@ -18,5 +18,5 @@ window.addEventListener("scroll", function () {
 
   my_values__title.style.top = value * 0.4 + (vh - 50) + "px";
   work__title.style.top = value * 0.4 - 500 + "px";
-  about__title.style.top = value * 0.4 - 500 + "px";
+  about__title.style.top = value * 0.4 - 1100 + "px";
 });
