@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: transparent;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 @media (max-width: 768px) {
   h1 {
     font-family: "Rozha One", serif;
-    color: #d5e5e4cc;
+    color: #d5e5e4;
     font-size: 125px;
     line-height: 120px;
     background: transparent;
@@ -32,12 +33,19 @@ body {
     background: transparent;
     z-index: 1;
   }
+  #contact-page a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    z-index: 1;
+  }
 }
 
 @media (min-width: 768px) {
   h1 {
     font-family: "Rozha One", serif;
-    color: #d5e5e4cc;
+    color: #d5e5e4;
     font-size: 280px;
     line-height: 200px;
     background: transparent;
@@ -87,6 +95,10 @@ nav div a {
   color: black;
 }
 
+nav #contact-btn {
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   nav {
     display: -webkit-box;
@@ -120,12 +132,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .section {
-    position: relative;
-    width: 100%;
-    height: calc(100vh - 50px);
-    overflow: hidden;
-  }
   #who-i-am h1 {
     position: absolute;
     left: -5px;
@@ -149,26 +155,65 @@ a {
     background: transparent;
     color: #4a5f5e;
   }
+  .section {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    background: transparent;
+  }
+  #values h1, #work h1, #about h1 {
+    position: absolute;
+    left: -10px;
+    top: calc(100vh - 50px);
+  }
   .values__items {
     padding-left: 20%;
     margin-bottom: 90px;
     width: 90%;
   }
-  #work {
+  #work, #about {
     margin-top: 300px;
   }
-  #work h1 {
-    position: absolute;
-    left: -10px;
-    top: calc(100vh - 50px);
+  #contact-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d5e5e4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  #about {
-    margin-top: 300px;
+  #contact-page div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  #values h1 {
-    position: absolute;
-    left: -10px;
-    top: calc(100vh - 50px);
+  #contact-page div a {
+    padding: 5px 0;
+  }
+  #contact-page #contact-close {
+    cursor: pointer;
+    margin-top: 30px;
   }
 }
 
@@ -235,7 +280,7 @@ a {
   #contact-page {
     width: 100vw;
     height: 100vh;
-    background-color: #d5e5e4cc;
+    background-color: #d5e5e4;
     position: fixed;
     top: 0;
     left: 0;

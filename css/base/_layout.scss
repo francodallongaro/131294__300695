@@ -4,12 +4,7 @@ a {
 }
 // CELU
 @media (max-width: 768px) {
-  .section {
-    position: relative;
-    width: 100%;
-    height: calc(100vh - 50px);
-    overflow: hidden;
-  }
+
   #who-i-am {
     h1 {
       position: absolute;
@@ -36,28 +31,56 @@ a {
     }
   }
 
-  .values__items {
-    padding-left: 20%;
-    margin-bottom: 90px;
-    width: 90%;
+  .section {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    background: transparent;
   }
-  #work {
+
+  
+  #values, #work, #about {
     h1 {
       position: absolute;
       left: -10px;
       top: calc(100vh - 50px);
     }
+  }
+
+  .values__items {
+    padding-left: 20%;
+    margin-bottom: 90px;
+    width: 90%;
+  }
+  
+  #work, #about {
     margin-top: 300px;
   }
 
-  #about {
-    margin-top: 300px;
-  }
-  #values {
-    h1 {
-      position: absolute;
-      left: -10px;
-      top: calc(100vh - 50px);
+  #contact-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: $primary-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      a {
+        padding: 5px 0;
+      }
+    }
+    #contact-close {
+      cursor: pointer;
+      margin-top: 30px;
     }
   }
 }
