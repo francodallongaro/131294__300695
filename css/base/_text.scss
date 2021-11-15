@@ -29,12 +29,26 @@
     }
   }
 
-  #contact-page a {
+  #contact-page a, #about a {
     font-family: $secondary-font;
     color: black;
     font-size: 18px;
     background: transparent;
     z-index: 1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  #quote {
+    p {
+      font-family: $secondary-font;
+      color: black;
+      font-size: 24px;
+      background: transparent;
+      z-index: 1;
+      line-height: 40px;
+    }
   }
 
 }
@@ -69,4 +83,16 @@
       letter-spacing: 0.3px;
     }
   }
+
+  #contact-page a, #about a {
+    font-family: $secondary-font;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    z-index: 1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
 }

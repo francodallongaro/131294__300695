@@ -83,6 +83,15 @@ a {
       margin-top: 30px;
     }
   }
+
+  #quote {
+    height: 40vh;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 // COMPU
@@ -169,6 +178,13 @@ a {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      a {
+        padding: 5px 0;
+      }
+    }
+    #contact-close {
+      cursor: pointer;
+      margin-top: 30px;
     }
   }
 }

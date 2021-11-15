@@ -33,12 +33,23 @@ body {
     background: transparent;
     z-index: 1;
   }
-  #contact-page a {
+  #contact-page a, #about a {
     font-family: "Roboto", sans-serif;
     color: black;
     font-size: 18px;
     background: transparent;
     z-index: 1;
+  }
+  #contact-page a:hover, #about a:hover {
+    text-decoration: underline;
+  }
+  #quote p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 24px;
+    background: transparent;
+    z-index: 1;
+    line-height: 40px;
   }
 }
 
@@ -66,6 +77,16 @@ body {
     z-index: 1;
     line-height: 28px;
     letter-spacing: 0.3px;
+  }
+  #contact-page a, #about a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    z-index: 1;
+  }
+  #contact-page a:hover, #about a:hover {
+    text-decoration: underline;
   }
 }
 
@@ -215,6 +236,20 @@ a {
     cursor: pointer;
     margin-top: 30px;
   }
+  #quote {
+    height: 40vh;
+    background-color: #d5e5e4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -309,6 +344,13 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  #contact-page div a {
+    padding: 5px 0;
+  }
+  #contact-page #contact-close {
+    cursor: pointer;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
