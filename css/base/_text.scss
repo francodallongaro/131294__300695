@@ -1,5 +1,16 @@
 @import "variables";
 
+#quote {
+  p {
+    font-family: $secondary-font;
+    color: black;
+    font-size: 24px;
+    background: transparent;
+    z-index: 1;
+    line-height: 40px;
+  }
+}
+
 // CELU
 @media (max-width: 768px) {
   h1 {
@@ -40,16 +51,7 @@
     }
   }
 
-  #quote {
-    p {
-      font-family: $secondary-font;
-      color: black;
-      font-size: 24px;
-      background: transparent;
-      z-index: 1;
-      line-height: 40px;
-    }
-  }
+
 
 }
 
