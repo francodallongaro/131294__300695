@@ -19,6 +19,7 @@ nav {
   #contact-btn a{
     cursor: pointer;
     color: darken($primary-color, 30);
+    font-weight: bold;
   }
 }
 
@@ -47,6 +48,7 @@ nav {
     #contact-btn a {
       cursor: pointer;
       color: darken($primary-color, 30);
+      font-weight: bold;
     }
   }
 }

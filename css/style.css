@@ -129,6 +129,7 @@ nav div a {
 nav #contact-btn a {
   cursor: pointer;
   color: #77aba7;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -162,6 +163,7 @@ nav #contact-btn a {
   nav #contact-btn a {
     cursor: pointer;
     color: #77aba7;
+    font-weight: bold;
   }
 }
 
